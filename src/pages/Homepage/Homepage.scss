@@ -5,4 +5,9 @@
         justify-content: space-between;
         background: linear-gradient(to right,#2d4dcc, #5f75cf);
 
+        @media screen and (max-width: 550px) {
+                height: auto;
+                
+        }
+
 }

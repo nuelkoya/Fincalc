@@ -40,6 +40,10 @@ const Amortization = () => {
 
 
   useEffect(() =>{
+    window.scroll({
+        top: 0,
+        behavior: "smooth",
+    });
     calculate()
   },[])
 

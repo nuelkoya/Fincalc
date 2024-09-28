@@ -2,9 +2,26 @@ import React, { useEffect, useState } from 'react'
 import "./CompoundInterest.scss"
 import { FaDollarSign } from "react-icons/fa";
 import { AiOutlinePercentage } from "react-icons/ai";
-import { Chart as ChartJS, } from 'chart.js';
+import { 
+    Chart as ChartJS,
+    CategoryScale,
+    LinearScale,
+    PointElement,
+    LineElement,
+    Title,
+    Tooltip,
+    Legend,
+} from 'chart.js';
 import { Line } from 'react-chartjs-2';
-
+ChartJS.register(
+    CategoryScale,
+    LinearScale,
+    PointElement,
+    LineElement,
+    Title,
+    Tooltip,
+    Legend,
+)
 
 
 
